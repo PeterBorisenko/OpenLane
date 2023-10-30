@@ -9,7 +9,7 @@ This guide covers the RTL-to-GDS flow using [OpenRAM](https://openram.org/) cell
 Create a new design using the following command:
 
 ```
-./flow.tcl -design ./designs/ci/test_sram_macro -init_design_config -add_to_designs
+./flow.tcl -design ./ci/test_sram_macro -init_design_config -add_to_designs
 ```
 
 ## Create the Verilog files
